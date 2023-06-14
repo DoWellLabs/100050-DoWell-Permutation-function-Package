@@ -4,8 +4,9 @@ from typing import List
 
 
 class Permutation:
-    def __init__(self, permutation_function_url: str):
-        self.function_url = permutation_function_url
+    def __init__(self):
+        # self.function_url = permutation_function_url
+        self.function_url = 'https://100050.pythonanywhere.com/permutationapi/api/'
 
     def _function_data(self, data: dict):
         """
