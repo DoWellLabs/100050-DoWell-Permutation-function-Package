@@ -11,7 +11,7 @@ HERE = path.abspath(path.dirname(__file__))
 with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-# This call to setup() does all the work
+
 setup(
     name="dowell-permutation",
     version="0.1.0",

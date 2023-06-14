@@ -1,5 +1,6 @@
 import json
 import requests
+from typing import List
 
 
 class Permutation:
@@ -40,14 +41,14 @@ class Permutation:
                 "command": "findPermutation"}
         return self._function_data(data)
 
-    def save(self, id: str, selected_permutation: str):
+    def save(self, id: str, selected_permutation: List[str]):
         """
-        aves a selected permutation. It sends a JSON payload with the parameters provided
+        Saves a selected permutation. It sends a JSON payload with the parameters provided
         :param id: The ID of the permutation to be saved
         :param selected_permutation: An array of variables representing the selected permutation
         :return: The response confirms the successful saving of the permutation. The response body contains a success message.
         """
-        data = {"inserted_id": id, "selectedPermutation": selected_permutation, "command": "savePermutation"}
+        data = {"inserted_id": id, "selectedPermutation": [selected_permutation], "command": "savePermutation"}
         return self._function_data(data)
 
     def retrieve(self, id):
