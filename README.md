@@ -91,12 +91,12 @@ Here is an example of how you can use the Permutation Library:
     ```
 2. Once the request is made, the API will process the data and return a response in JSON format. The response will include the total number of possible permutations, along with the generated permutations.
     ```json
-    {'eventId': 'FB1010000000000000000000003004', 
-    'n': 5, 
-    'r': 3, 
-    'numberOfPermutations': 60, 
-    'permutationsVariables': ['A'], 
-    'inserted_id': '648963a70d4d6ccff1a7b4a0'}
+    {"eventId": "FB1010000000000000000000003004", 
+    "n": 5, 
+    "r": 3, 
+    "numberOfPermutations": 60, 
+    "permutationsVariables": ["A"], 
+    "inserted_id": "648963a70d4d6ccff1a7b4a0"}
     ```
 3. You will now need to select one permuation from the generated permutations and call the API again by providing the next letter that you want to include in the permutation.
 4. Repeat the steps until the 3 letters are selected and permutation for 3 letters is generated.
