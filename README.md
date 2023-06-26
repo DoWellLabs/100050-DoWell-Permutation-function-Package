@@ -81,6 +81,8 @@ To get started with the Permutation API, follow these steps:
 
 3. Analyze the returned results, including the number of permutations and the final permutation.
 
+4. Detailed [Library Documentation](https://dowell-permutation.readthedocs.io/en/latest/)
+
 ## Example
 
 Here is an example of how you can use the Permutation Library:
