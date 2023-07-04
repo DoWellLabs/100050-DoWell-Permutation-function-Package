@@ -11,7 +11,7 @@ Welcome to the Permutation API! The Permutation API is a comprehensive tool that
 2. Create an instance of the API
     ```python
     from permutation import Permutation
-    perm = Pemutation()
+    perm = Permutation()
     ```
 
 ## Features
